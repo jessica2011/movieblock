@@ -20,6 +20,7 @@ $(document).ready(function() {
     // table.addClass('table');
     var movies = response.Search;
     var resultsUl = $('#results');
+    var details = $('#description');
     resultsUl.empty();
 
     for (var m in movies) {
@@ -27,6 +28,7 @@ $(document).ready(function() {
       var title = movie.Title;
       var imdbID = movie.imdbID;
       var poster = movie.Poster;
+      
 
       console.log([title, imdbID, poster]);
 
@@ -34,6 +36,7 @@ $(document).ready(function() {
       var posterImg = $('<img class="poster-movie" src="' + poster + '" />');
       liMovie.append(posterImg);
       liMovie.append(title);
+      liMovie.click(renderDetalles);
       resultsUl.append(liMovie);
       // var tr = $('<tr>');
       // var td = $('<td>'); 
@@ -47,6 +50,15 @@ $(document).ready(function() {
       // tr.append(td);
 
       // table.append(tr);
+    }
+    $.getJSON('http://www.omdbapi.com/?apikey=3a181f1c&i=' + mdbID + '&type=movie&t=', renderDetalles);
+      
+      
+    function renderDetalles(data) {
+
+      var pDescription = $('<p>' + plot + '</p>');
+      pDescription.append(details);
+      console.log('detalles');
     }
     // $('#searchResults').append(table);
   }
