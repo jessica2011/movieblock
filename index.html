@@ -4,33 +4,101 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>CineKids</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">  
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="assets/icons/css-fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Icono que aparece junto al title -->
+  <link rel="Shortcut Icon" href="assets/images/movie-kids.ico"/>
 </head>
 <body>
-  <div class="container-fluid">
-    <h1>Buscar peliculas</h1>
-    <div class="row">
-      <div class="col-xs-6">
-        <input type="text" id="title" class="form-control" placeholder="kung fu panda">
-        <br>
-        <button id="searchBtn" class="btn btn-block btn-primary">Buscar</button><br>
-        <h3>Resultados</h3><br>
-        <ul id="results" class="list-group"></ul>
+  <section class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-lg-8 align-self-center bg-gif bg centrar hidden-md-down ">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel align-items-center">
+            <div class="carousel-item active">
+              <div class="row">
+                <img class="rounded col-5 img-height-corousel" src="assets/images/coco.jpg">
+                <img class="rounded col-5 offset-1 img-height-corousel" src="assets/images/up.jpg">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <img class="rounded col-5 img-height-corousel" src="assets/images/ole.jpg">
+                <img class="rounded col-5 offset-1 img-height-corousel" src="assets/images/cigüeñas.jpg">;
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-6">
-        <h3>Detalles</h3>
-        <div id="description"></div>
+      <div class="col-lg-4 col-12 bg-login bg">
+          <figure class="col-10 offset-1">
+              <img src="assets/images/logokids.png" alt="">
+          </figure>
+        <div class="col-10 offset-1">
+          <!-- <button type="button" class="btn btn-primary btn-lg btn-block">Facebook</button> -->
+          <button type="button" class="btn btn-danger btn-block"><i class="fa fa-google-plus-square fa-2x"></i>  Ingresa con Google+</button><br>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email2" aria-describedby="emailHelp" placeholder="Email"><br>
+                <input type="password" class="form-control" id="password2" placeholder="Contraseña"><br>
+              </div>
+              <button id="btn-login-js" type="submit" class="btn btn-info btn-block">Iniciar sesión</button><br>
+            </form>
+          </div>
+          <div class="white-text">
+          <p class="text-center">¿Aún no tienes una cuenta?<a href="#signUp" data-toggle="modal" data-target="#signUp"> Registrate</a></p>
+          </div>
+        </div>
       </div>
-    </div>    
-  </div>
- 
+    </div>  
+  </section>
 
+  <!-- Modal de signUp -->
+  <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="signUp" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="row ">
+            <img class="col" src="assets/images/logokids.png" alt="">
+          </div>
+          <div class="row">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span class="col" aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="row">
+              <div class="form-group col-6">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="form-group col-6">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+              <div class="form-group col-12">
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+              </div>
+              <div class="form-group col-12">
+                <input type="password" class="form-control" id="password" placeholder="Contraseña">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button id="btn-signUp-js" type="submit" class="btn btn-primary mx-auto">Registrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
-  <script type="text/javascript" src="app.js"></script>
+  <script src="js/autentication.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

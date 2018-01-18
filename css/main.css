@@ -2,3 +2,37 @@
   vertical-align: top;
   height: 100px;
 }
+
+/* index */
+
+img {
+  width: 100%;
+}
+
+.bg {
+	background-position:center bottom;
+	background-repeat:no-repeat;
+  background-size:cover;
+  height: 100vh;
+}
+
+.bg-gif {
+  background-image: url('../assets/images/fondo-inicial.gif')
+}
+
+.bg-login {
+  background-image: url('../assets/images/fondo-login.png');
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Carousel */
+
+.img-height-corousel {
+  height: 450px;
+}
+

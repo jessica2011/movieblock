@@ -31,13 +31,13 @@ Coodinar qué pareja presentará el dia 2 y quienes el día 4.
 
 - Fortalezas resaltadas:
 
-[Daphne Cáceres](https://github.com/chamodev): Muy hábil interactuando con el usuario, hacer testeo, sketch y maquetado. 
+[Daphne Cáceres](https://github.com/DaphneMilena): Muy hábil interactuando con el usuario, hacer testeo, sketch y maquetado. 
 
-[Jessica Meza](https://github.com/chamodev): Se adapta muy bien en la funcionalidad del producto y el maquetado.
+[Jessica Meza](https://github.com/jessica2011): Se adapta muy bien en la funcionalidad del producto y el maquetado.
 
-[Nataly Ortiz](https://github.com/chamodev): Muy hábil en estructuar el contenido del producto, maquetar y realizar sketch.
+[Nataly Ortiz](https://github.com/Nathoriz): Muy hábil en estructuar el contenido del producto, maquetar y realizar sketch.
 
-[Yanira Arenazas](https://github.com/chamodev): Destaca muy bien en la funcionalidad del producto, maquetado y organización del equipo.
+[Yanira Arenazas](https://github.com/YaniraAB): Destaca muy bien en la funcionalidad del producto, maquetado y organización del equipo.
 
 - Delimitar tareas:
 
