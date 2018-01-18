@@ -77,9 +77,9 @@ Mediante lluvia de ideas para la elección de una problématica no solucionada d
 
 Nos separamos en grupos de a dos:
 
-Daphne y Nataly: de forma presencial se reunierón para realizar el skets y comenzar a testear a un máximo de 5 padres con hijos menores de 12 años, los resultados de las entrevistas en forma general fuerón lo siguiente:
+- Daphne y Nataly: de forma presencial se reunierón para realizar el skets y comenzar a testear a un máximo de 5 padres con hijos menores de 12 años, los resultados de las entrevistas en forma general fuerón lo siguiente:
 
-Yanira y Jessica : de forma online cordinaban de cómo acceder a la data y poder mostrar en pantalla los resultados.
+- Yanira y Jessica : de forma online cordinaban de cómo acceder a la data y poder mostrar en pantalla los resultados.
 
 #### Logros obtenidos en el día 1:
 
@@ -105,6 +105,52 @@ Yanira y Jessica : de forma online cordinaban de cómo acceder a la data y poder
 
 ![Sin título](assets/docs/cine-kids6.jpeg "titulo")
 
+*** 
+
 ## Día 2
 
-A. En el Aula
+#### A. En el Aula:
+
+- Daphne y Nataly, nos dierón a conocer los resultados del testeo.
+- Encontramos las debilidades de poder tener una busqueda específica con OMDB.
+- Coordinamos qué puntos se va hablar en la presentación de ese mismo día.
+- Recibimos feedback del equipo de Laboratoria.
+- Escuchamos los feedback de las demás equipos.
+- Seguimos trabajando en parejas.
+- Cada pareja compartio sus avances.
+
+#### B. En casa:
+
+- Nataly: Logró realizar el la estructura del producto (html), maquetar la primer vista y avanzar con el maquetado de la segunda  vista.
+
+- Daphne: Verificó que el maquetado sea responsive. 
+
+- Yanira: Filtró la base de datos mediante checkbox. (se logró nuestro filtró solo para peliculas animadas)
+
+- Jessica : Dio funcionalidad para logear con correo y una contraseña del usuario, dio estilos a la primera vista del producto, y añadio paletas de colores.
+
+#### Logros obtenidos en el día 2:
+
+- Obtener la estructura y maquetado
+
+#### Imgenes del día 2:
+
+- Maquetado de la primera vista
+
+![Sin título](assets/docs/vista1.PNG "titulo")
+
+- Funcionalidad de busqueda de peliculas
+
+![Sin título](assets/docs/vista2.PNG "titulo")
+
+- Maquetado, mas paleta de colores de la primera vista
+
+![Sin título](assets/docs/vista3.png "titulo")
+
+- funcionalidad de logear con google y correo electrónico.
+
+![Sin título](assets/docs/logear.PNG "titulo")
+
+*** 
+
+## Día 3

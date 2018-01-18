@@ -36,3 +36,62 @@ img {
   height: 450px;
 }
 
+/* home */
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.opacity {
+  background: rgba(0,0,0, .5) 
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* poster de peliculas */
+
+.w-h-example {
+  background-color: #A57;
+  height: 300px;
+  margin: 25px 15px 25px 15px;
+}
+
+/* imagenes de los logos */
+
+.logo {
+  padding-left: 0;
+}
+
+/* iconos */
+span.fa {
+  font-size: 20px;
+}
+
+/* imagen de ejemplo */
+
+.wh-user-example {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  
+}
+
+/* Colores */
+
+.yellow-text {
+  color: yellow;
+}
+
+.black-text {
+  color: black;
+}
+
+
+/*  */
+
+div.form-check {
+  margin-bottom: 5px;
+}
