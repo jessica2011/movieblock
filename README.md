@@ -7,7 +7,7 @@ Somos del Squad "Movie Chicks", integrado por :
 - Nataly Ortiz
 - Yanira Arenazas
 
-Tenemos el agrado de presentar el proceso de elaboración de nuestro producto "nombre del app" y el resultado final de ello.
+Tenemos el agrado de presentar el proceso de elaboración de nuestro producto "Movie Kids" y el resultado final de ello.
 
 ### _Reto_:
 
@@ -75,9 +75,10 @@ Mediante lluvia de ideas para la elección de una problématica no solucionada d
 
 #### B. En casa:
 
-Nos separamos en grupos de a dos:
+- Leer sobre el proceso UX en 
 
-- Daphne y Nataly: de forma presencial se reunierón para realizar el skets y comenzar a testear a un máximo de 5 padres con hijos menores de 12 años, los resultados de las entrevistas en forma general fuerón lo siguiente:
+    https://docs.google.com/document/d/1vPXWgLlgOCeelM-s9VRdPQFx3ny2GntxP-5ldqB5Uqk/edit
+
 
 - Yanira y Jessica : de forma online cordinaban de cómo acceder a la data y poder mostrar en pantalla los resultados.
 
@@ -85,7 +86,7 @@ Nos separamos en grupos de a dos:
 
 - Investigar productos similares en el mercado local.
 
-- Elaboración de preguntas para el testeo del sketch, aplicada a 5 madres de familia con niños en edades entre 2 y 10 años.
+- Elaboración de preguntas para el testeo del sketch, aplicada a 5 adeultos con niños en edades entre 2 y 10 años.
 
 - Maketear la vista Index.
 
@@ -121,9 +122,10 @@ Nos separamos en grupos de a dos:
 
 #### B. En casa:
 
-- Nataly: Logró realizar el la estructura del producto (html), maquetar la primer vista y avanzar con el maquetado de la segunda  vista.
 
-- Daphne: Verificó que el maquetado sea responsive. 
+- Nataly y Daphne : Reunión colaborativa en casa de Nataly. Se realiza la estructura de la vista home tanto en desktop como para mobile.
+
+- Daphne: Realizó el maquetado sea responsive de todas las vistas en mobile. ;
 
 - Yanira: Filtró la base de datos mediante checkbox. (se logró nuestro filtró solo para peliculas animadas)
 
@@ -131,7 +133,10 @@ Nos separamos en grupos de a dos:
 
 #### Logros obtenidos en el día 2:
 
-- Obtener la estructura y maquetado
+- El squad se mantuvo comunicado mediante whatsapp, slack y trello para coordinar la subida de los trabajos en forma ordenada y para evitar conflictos en el GitGub
+  También se continuo con el intercambio de ideas y feedback interno.
+
+- Producto a un 40% de avanzado. 
 
 #### Imgenes del día 2:
 
@@ -154,3 +159,35 @@ Nos separamos en grupos de a dos:
 *** 
 
 ## Día 3
+
+#### En el Aula
+
+- Como equipo: Daily interno. Se discute los avances, se planifica las acciones a realizarse. Se programa reunión de trabajo colaborativo en casa de Daphne.
+
+- Yanira y Jessica: Van dando funcionabilidad a la vista index. Hacer que se pueda logear con los botones coordinando las clases y estructura.
+
+- Nataly: maquetado de la vista home terminada. Redifinición del logo y los colores del mismo.
+
+- Daphne: Inicia con sección footer, vista con maquetado Guía de Padres
+
+
+#### En casa
+
+- Yanira: Inicio de jueguito bonus para la página
+
+- Jessica: Finaliza con los filtrados y la obtención de data 
+
+- Daphne y Nataly: Verificación y correción de fallas en el maquetado que se desarrollaron cuando se anexaron los trabajos del squad.
+
+- Nataly: Solución de los problemas leves que se dieron en el maquetado a la hora del merge. 
+
+- Daphne: Finaliza con la vista Guía, footer e inicia con la elaboración de un README detallado
+
+- El trabajo como squad incluye la tarde, noche y madrugada.
+
+- Status del proyecto al final del día 3: 75%
+
+![Sin título](assets/docs/trello2.png "titulo")
+
+
+

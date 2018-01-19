@@ -16,7 +16,7 @@
 </head>
 <body class="bg-fondo">
   <nav class="navbar navbar-expand-xs grey">
-    <a class="navbar-brand col-5" href="#"><img src="../assets/images/logokids.png"  class="img-logo centrar center-block" alt=""></a>
+    <a class="navbar-brand col-1" href="#"><img src="../assets/images/logokids.png"  class="img-logo centrar center-block" alt=""></a>    
     <a class="navbar brand col-1 mr-auto white-text" href="game.html"><span class="fa fa-gamepad" aria-hidden="true"></span></a>
     <div id="navbarTogglerDemo03">
       <a href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,6 +34,8 @@
       <div class="form-inline-block my-2 my-lg-0   col-md-8">
         <input id="title" class="form-control mr-sm-0" type="search" placeholder="Ejemplo: barbie" aria-label="Search">
         <button id="searchBtn" class="btn btn-outline-success my-2 my-sm-3 form-inline-block col-6 offset-3" type="submit">Search</button>
+        <div id="results" class="col-md-5">
+        </div>
       </div>
       <div class="col-md-4 p-5">
         <div class="row centrar">
@@ -44,25 +46,25 @@
               <br>
               <h5>Clasificación</h5>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="TV-Y" id="rated3">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
                 <label class="form-check-label" for="defaultCheck">
                   Apto para los más pequeños de 2 a 6 años (TV-Y)
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="TV-Y7" id="rated2">
-                <label class="form-check-label" for="defaultCheck">
-                  Niños de 7 años a más(TV-Y7)
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="G" id="rated1">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
                 <label class="form-check-label" for="defaultCheck">
                   Audiencia General (G)-(TV-G)
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="PG" id="rated4">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
+                <label class="form-check-label" for="defaultCheck">
+                  Niños de 7 años a más(TV-Y7)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
                 <label class="form-check-label" for="defaultCheck">
                   Acompañado de un adulto (TV-PG)
                 </label>
@@ -70,67 +72,79 @@
               <br>
               <h5> Estudios Cinematograficos</h5>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Cartoon" id="prod3">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
                 <label class="form-check-label" for="defaultCheck">
                   Cartoon Networks
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Disney" id="prod1">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
+                <label class="form-check-label" for="defaultCheck">
+                  Century Fox / Fox
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
                 <label class="form-check-label" for="defaultCheck">
                   Disney Pictures
                 </label>
               </div>
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Dreamworks" id="prod2">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
                 <label class="form-check-label" for="defaultCheck">
                   DreamWorks Pictures
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Illumination" id="prod7">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
                 <label class="form-check-label" for="defaultCheck">
                   Ilumination
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Pixar" id="prod5">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
+                <label class="form-check-label" for="defaultCheck">
+                  Nickelodeon
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
                 <label class="form-check-label" for="defaultCheck">
                   Pixar
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Universal" id="prod4">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
                 <label class="form-check-label" for="defaultCheck">
-                 Universal Cartoon Studios
+                 Universal Cartoon Studios 
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Warner" id="prod6">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
                 <label class="form-check-label" for="defaultCheck">
                   Warner Bros Entertainment
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
+                <label class="form-check-label" for="defaultCheck">
+                  Otros
                 </label>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div id="results" class="col-md-8">
-      </div>
-      <div id="results-checkboxs" class="col-md-8">
-      </div>
-      <div id="modals"">
-      </div>
     </div>
   </section>
 
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  
   <script src="../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>  
   <!-- <script src="../js/autentication.js"></script> -->
-  <script src="../js/autentication.js"></script>
-  <script src="../js/app.js"></script>
+  <script src="../js/autentication.js"></script> 
+  <script src="../js/app.js"></script>    
 </body>
 </html>

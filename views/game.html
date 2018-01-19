@@ -7,10 +7,14 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/main.css">
+  <script src="https://use.fontawesome.com/585d303aa0.js"></script>
 </head>
-<body class="bg-gif bg">
-  <div class="container bg">
-    <a href="home.html">regresar</a>
+<body class="bg-gif bg centrar">
+  <div class="col-9 col-lg-7 container-img-game bg">
+    <div class="row">
+      <a class="ml-4 float-left" href="home.html"><span class="fa fa-chevron-left" aria-hidden="true"> Regresar</span></a>
+    </div>
+    <br>
     <h5 class="title1">¿Qué película verán hoy?</h5>
     <div class="row">
       <div class="col-8 offset-2">
@@ -18,12 +22,11 @@
         <button id="btn-stop" type="button" class="btn-green btn btn-success col-12">Stop!</button>
       </div>
     </div>
-    <div class="row">
-      <div class="col-8 offset-2">
-        <img id="img" class="img-movies" src="../assets/images/cine.jpg" data-toggle="modal" data-target="#modal-info">
+    <div class="row centrar">
+      <div class="col-12 col-lg-6 centrar p-4">
+        <img id="img" class="img-movies col-12 col-lg-9" src="../assets/images/cine.jpg" data-toggle="modal" data-target="#modal-info">
       </div>
     </div>
-
   </div>
 
 
@@ -32,17 +35,38 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="name-movie"></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="col-12 centrar">
+                <h5 class="modal-title" id="name-movie"></h5>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="modal-body">
-          <img id="img-movie" src="../assets/images/cine.jpg" class="img-two">
-          <p id="actors-movie"></p>
-          <p id="plot-movie"></p>
-          <p id="year-movie"></p>
-          <p id="rated-movie"></p>
+          <div class="row">
+            <div class="col-12 col-lg-6 p-5 p-lg-2">
+              <img id="img-movie" src="../assets/images/cine.jpg" class="img-two">
+            </div>
+            <div class="col-12  col-lg-6 centrar">
+              <p id="plot-movie"></p>
+            </div>
+            <br>
+            <div class="col-12">
+              <p id="actors-movie"></p>
+            </div>
+            <div class="col-12">
+              <p id="year-movie"></p>
+            </div>
+            <div class="col-12">
+              <p id="rated-movie"></p>
+            </div>
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
